@@ -1,0 +1,44 @@
+body{
+    background: #e8e8e8;
+    
+}
+.v_tbdr{
+    border:2px dashed white;
+    padding:0px;
+}
+header{
+height: 100px;
+width: 97%;
+margin-left: 19px;
+/*border: 1px dashed red;*/
+}
+main{
+height:3245px;
+/*border:1px dashed red;*/
+}
+.mt-5.v_mt-5{
+    margin-top: 95px !important;
+}
+footer{
+/*border:1px dashed red;*/
+}
+.v_footer1{
+    height:268px;
+}
+.v_footer2{
+    height: 1579px;
+}
+.v_footer3{
+    height:295px;
+}
+.v_footer4{
+    height:95px;
+}
+
+
+
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1227px;
+    }
+}
